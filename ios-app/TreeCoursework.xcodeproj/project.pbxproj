@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1BB39CDE884685B1118327 /* TreeCourseworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094EA6E46B574BEDBE010662 /* TreeCourseworkApp.swift */; };
+		2B5BBC51A6C044E6AE987FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E667413CD2C4B868A511A36 /* ContentView.swift */; };
+		D69F2B0B78C0423F833D5B3E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9A0B1FBB11433C98C17629 /* Models.swift */; };
+		DDE482BCDAAF4FB18908D1F8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF165C3B604C228C7C9FD3 /* APIClient.swift */; };
+		BB6040B8BBC2414EAFD93C2B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A04F3992FB64519A17B778C /* AppViewModel.swift */; };
+		89F30181D38A4D10BEF2A60C /* TreeCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9031372D9BB943EDA1B1E985 /* TreeCanvasView.swift */; };
+		4C14658711724526B17E1C91 /* ThemeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15306C90EF554A319530059E /* ThemeColors.swift */; };
+		D1B2A3C4D5E6473829180F1F /* TreeGraphDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B2A3C4D5E6473829180F1E /* TreeGraphDetailView.swift */; };
+		686B50E1AF7B4755B1F3E155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D8A2AF4A6146F28E1017AD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDE482BCDAAF4FB18908D1F7 /* TreeCoursework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreeCoursework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094EA6E46B574BEDBE010662 /* TreeCourseworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeCourseworkApp.swift; sourceTree = "<group>"; };
+		2E667413CD2C4B868A511A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD9A0B1FBB11433C98C17629 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D7EF165C3B604C228C7C9FD3 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		4A04F3992FB64519A17B778C /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		9031372D9BB943EDA1B1E985 /* TreeCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeCanvasView.swift; sourceTree = "<group>"; };
+		15306C90EF554A319530059E /* ThemeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColors.swift; sourceTree = "<group>"; };
+		D1B2A3C4D5E6473829180F1E /* TreeGraphDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeGraphDetailView.swift; sourceTree = "<group>"; };
+		C08EB60A66394D19B65A3070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D8A2AF4A6146F28E1017AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F547477F666C4AB7AA102283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F547477F666C4AB7AA102280 = {
+			isa = PBXGroup;
+			children = (
+				A9C3B0AAFC0544DF8D2F95C1 /* TreeCoursework */,
+				F547477F666C4AB7AA102281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F547477F666C4AB7AA102281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE482BCDAAF4FB18908D1F7 /* TreeCoursework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C3B0AAFC0544DF8D2F95C1 /* TreeCoursework */ = {
+			isa = PBXGroup;
+			children = (
+				094EA6E46B574BEDBE010662 /* TreeCourseworkApp.swift */,
+				2E667413CD2C4B868A511A36 /* ContentView.swift */,
+				FD9A0B1FBB11433C98C17629 /* Models.swift */,
+				D7EF165C3B604C228C7C9FD3 /* APIClient.swift */,
+				4A04F3992FB64519A17B778C /* AppViewModel.swift */,
+				9031372D9BB943EDA1B1E985 /* TreeCanvasView.swift */,
+				15306C90EF554A319530059E /* ThemeColors.swift */,
+				D1B2A3C4D5E6473829180F1E /* TreeGraphDetailView.swift */,
+				C08EB60A66394D19B65A3070 /* Info.plist */,
+				B7D8A2AF4A6146F28E1017AD /* Assets.xcassets */,
+			);
+			path = TreeCoursework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C30C52A7FD34D78B6995FDE /* TreeCoursework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8D30CEB00947D3A4B6A002 /* Build configuration list for PBXNativeTarget "TreeCoursework" */;
+			buildPhases = (
+				8C30C52A7FD34D78B6995FDF /* Sources */,
+				F547477F666C4AB7AA102283 /* Frameworks */,
+				8C30C52A7FD34D78B6995FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreeCoursework;
+			productName = TreeCoursework;
+			productReference = DDE482BCDAAF4FB18908D1F7 /* TreeCoursework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C30C52A7FD34D78B6995FD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1700;
+				LastUpgradeCheck = 1700;
+				TargetAttributes = {
+					8C30C52A7FD34D78B6995FDE = {
+						CreatedOnToolsVersion = 17.0;
+					};
+				};
+			};
+			buildConfigurationList = A9C3B0AAFC0544DF8D2F95C2 /* Build configuration list for PBXProject "TreeCoursework" */;
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = F547477F666C4AB7AA102280;
+			productRefGroup = F547477F666C4AB7AA102281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C30C52A7FD34D78B6995FDE /* TreeCoursework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C30C52A7FD34D78B6995FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686B50E1AF7B4755B1F3E155 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C30C52A7FD34D78B6995FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1BB39CDE884685B1118327 /* TreeCourseworkApp.swift in Sources */,
+				2B5BBC51A6C044E6AE987FB4 /* ContentView.swift in Sources */,
+				D69F2B0B78C0423F833D5B3E /* Models.swift in Sources */,
+				DDE482BCDAAF4FB18908D1F8 /* APIClient.swift in Sources */,
+				BB6040B8BBC2414EAFD93C2B /* AppViewModel.swift in Sources */,
+				89F30181D38A4D10BEF2A60C /* TreeCanvasView.swift in Sources */,
+				4C14658711724526B17E1C91 /* ThemeColors.swift in Sources */,
+				D1B2A3C4D5E6473829180F1F /* TreeGraphDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A9C3B0AAFC0544DF8D2F95C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9C3B0AAFC0544DF8D2F95C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BE8D30CEB00947D3A4B6A000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TreeCoursework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.coursework.TreeCoursework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE8D30CEB00947D3A4B6A001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TreeCoursework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = local.coursework.TreeCoursework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C3B0AAFC0544DF8D2F95C2 /* Build configuration list for PBXProject "TreeCoursework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C3B0AAFC0544DF8D2F95C3 /* Debug */,
+				A9C3B0AAFC0544DF8D2F95C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE8D30CEB00947D3A4B6A002 /* Build configuration list for PBXNativeTarget "TreeCoursework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8D30CEB00947D3A4B6A000 /* Debug */,
+				BE8D30CEB00947D3A4B6A001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C30C52A7FD34D78B6995FD1 /* Project object */;
+}
