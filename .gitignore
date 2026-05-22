@@ -1,1 +1,27 @@
 богданов_д_с_курсовая.zip
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# PHP / Laravel vendor
+backend/vendor/
+backend/node_modules/
+backend/.env
+
+# .NET build output
+winforms-client/bin/
+winforms-client/obj/
+
+# iOS / Xcode
+ios-app/Pods/
+ios-app/*.xcworkspace/xcuserdata/
+ios-app/.build/
+**/*.xcuserstate
+
+# Logs
+*.log
+backend/storage/logs/*.log
+
+# Screenshots (будут добавлены позже)
+screenshots/
